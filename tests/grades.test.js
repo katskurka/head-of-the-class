@@ -2,7 +2,7 @@
 const { describe, it } = require('mocha')
 const { expect } = require('chai')
 const { mockAssignmentAverages, mockStudentAverages, mockGrades } = require('./gradeMocks')
-const { calculateAverageByAssignment, calculateAverageByStudent } = require('../grades')
+const calculateAverageByAssignment = require('../grades')
 
 describe('Grades', () => {
   describe('calculateAverageByAssignment', () => {
